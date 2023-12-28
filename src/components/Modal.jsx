@@ -55,6 +55,7 @@ const Modal = () => {
       return;
     }
     setFormData({ ...formData, username: "", email: "", phone: "", dob: "" });
+    setOpen(false);
   };
 
   const handleModalOpenClose = () => {
