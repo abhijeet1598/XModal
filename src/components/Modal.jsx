@@ -67,10 +67,7 @@ const Modal = () => {
       onClick={handleClickOutside}
     >
       <h1>User Details Modal</h1>
-      <button
-        className={isOpen ? "closed-form open-form" : "closed-form"}
-        onClick={handleModalOpenClose}
-      >
+      <button className="submit-button" onClick={handleModalOpenClose}>
         Open Form
       </button>
       {isOpen && (
