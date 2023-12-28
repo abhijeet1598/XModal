@@ -62,10 +62,7 @@ const Modal = () => {
     setOpen((prevState) => !prevState);
   };
   return (
-    <div
-      className={isOpen ? "modal isopen" : "modal"}
-      onClick={handleClickOutside}
-    >
+    <div className={isOpen ? "modal" : "modal"} onClick={handleClickOutside}>
       <h1>User Details Modal</h1>
       <button className="submit-button" onClick={handleModalOpenClose}>
         Open Form
